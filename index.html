@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Meme Coin Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Randomized Meme Coin Generator</h1>
+<div id="coin-info">
+  <h2 id="coin-name">Click "Generate Coin" to Start!</h2>
+  <p id="coin-supply"></p>
+  <p id="coin-purpose"></p>
+  <p id="coin-backed"></p>
+  <p id="coin-value"></p>
+  <p id="investment"></p>
+</div>
+<button class="button" onclick="generateMemeCoin()">Generate Coin</button>
+<button class="button" onclick="investInCoin()" id="invest-btn" disabled>Invest $10</button>
+<button class="button" onclick="trackInvestment()" id="track-btn" disabled>Track Investment</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
